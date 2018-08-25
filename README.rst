@@ -1,6 +1,6 @@
-======
-Scrapy
-======
+=======
+Scrapy3
+=======
 
 .. image:: https://img.shields.io/pypi/v/Scrapy.svg
    :target: https://pypi.python.org/pypi/Scrapy
@@ -26,6 +26,10 @@ Scrapy
    :target: https://anaconda.org/conda-forge/scrapy
    :alt: Conda Version
 
+Abstract
+========
+
+This is a fork for Scrapy. For apply best in python3
 
 Overview
 ========
@@ -40,7 +44,7 @@ https://scrapy.org
 Requirements
 ============
 
-* Python 2.7 or Python 3.4+
+* Python 3.4+
 * Works on Linux, Windows, Mac OSX, BSD
 
 Install

@@ -27,14 +27,13 @@ if has_environment_marker_platform_impl_support():
 
 
 setup(
-    name='Scrapy',
+    name='Scrapy3',
     version=version,
-    url='https://scrapy.org',
+    url='https://github.com/Bob-Du/scrapy3',
     description='A high-level Web Crawling and Web Scraping framework',
     long_description=open('README.rst').read(),
-    author='Scrapy developers',
-    maintainer='Pablo Hoffman',
-    maintainer_email='pablo@pablohoffman.com',
+    author='BobDu',
+    author_email='i@bobdu.cc',
     license='BSD',
     packages=find_packages(exclude=('tests', 'tests.*')),
     include_package_data=True,
@@ -50,8 +49,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
@@ -62,7 +59,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Application Frameworks',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
+    python_requires='>=3.4',
     install_requires=[
         'Twisted>=13.1.0',
         'w3lib>=1.17.0',
